@@ -5,7 +5,5 @@
   so we will need to set public path to '/<REPO-NAME>/'.
 */
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-      ? '/todo-app-jesmon/'
-      : '/'
-  }
+    publicPath: '/todo-app-vue/'
+}
