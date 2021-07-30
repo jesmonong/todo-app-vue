@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div class='bg-blue-100 m-auto w-auto h-auto xl:w-6/12 h-50vh '>
+<h1 class='text-3xl font-bold pb-4 pt-4'>Todo App</h1>
+<todo-input class='m-5'> </todo-input>
+</div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TodoInput from '@/components/TodoInput.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TodoInput
   }
 }
 </script>
